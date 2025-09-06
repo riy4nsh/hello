@@ -1,6 +1,6 @@
 <%@page import="java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
+<%@ include file="auth.jsp" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@
                 </ul>
 
                 <ul class="logout-mode">
-                    <li><a href="#">
+                    <li><a href="logout.jsp">
                             <i class="uil uil-signout"></i>
                             <span class="link-name">Logout</span>
                         </a></li>

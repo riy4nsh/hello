@@ -1,8 +1,4 @@
-<%-- 
-    Document   : editpage.jsp
-    Created on : Sep 6, 2025, 3:04:00 PM
-    Author     : OJD-Admin
---%>
+<%@ include file="auth.jsp" %>
 <%@page import="java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>

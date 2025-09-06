@@ -1,9 +1,4 @@
-<%-- 
-    Document   : login
-    Created on : Sep 1, 2025, 5:42:02 PM
-    Author     : OJD-Admin
---%>
-
+<%@ include file="auth.jsp" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,6 +13,7 @@
 </head>
 <body>
     <nav>
+        
         <div class="logo-name">
             <div class="logo-image">
                <img src="logo.jpg" alt="logo">
@@ -48,7 +44,7 @@
             </ul>
             
             <ul class="logout-mode">
-                <li><a href="#">
+                <li><a href="logout.jsp">
                     <i class="uil uil-signout"></i>
                     <span class="link-name">Logout</span>
                 </a></li>

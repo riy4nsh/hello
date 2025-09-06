@@ -1,8 +1,5 @@
-<%-- 
-    Document   : registration
-    Created on : Sep 1, 2025, 5:43:50 PM
-    Author     : OJD-Admin
---%>
+<%@ include file="auth.jsp" %>
+
 <%@page import="java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
@@ -49,7 +46,7 @@
                 </ul>
 
                 <ul class="logout-mode">
-                    <li><a href="#">
+                    <li><a href="logout.jsp">
                             <i class="uil uil-signout"></i>
                             <span class="link-name">Logout</span>
                         </a></li>

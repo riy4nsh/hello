@@ -232,13 +232,13 @@
                 <div class="form-container">
                     <img src="https://raw.githubusercontent.com/hicodersofficial/glassmorphism-login-form/master/assets/illustration.png" alt="illustration" class="illustration" />
                     <h1 class="opacity">ADMIN LOGIN</h1>
-                    <form method="post" action="${pageContext.request.contextPath}/AdminLoginServlet">
+                    <form method="post" action="check.jsp">
 
                         <input type="text" name="email" placeholder="EMAIL" />
                         <input type="password" name="password" placeholder="PASSWORD" />
                         <button class="opacity">SUBMIT</button>
                     </form>
-                   
+
                 </div>
                 <div class="circle circle-two"></div>
             </div>
