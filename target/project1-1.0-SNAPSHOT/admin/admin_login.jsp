@@ -234,7 +234,7 @@
                     <h1 class="opacity">ADMIN LOGIN</h1>
                     <form method="post" action="check.jsp">
 
-                        <input type="text" name="email" placeholder="EMAIL" />
+                        <input type="email" name="email" placeholder="EMAIL" required />
                         <input type="password" name="password" placeholder="PASSWORD" />
                         <button class="opacity">SUBMIT</button>
                     </form>

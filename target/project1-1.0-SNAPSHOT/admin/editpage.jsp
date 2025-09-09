@@ -9,8 +9,7 @@
     </head>
     <body>
         <h1>Edit Your Data</h1>
-        <%
-            String id = request.getParameter("id");
+        <%            String id = request.getParameter("id");
             try {
                 Class.forName("com.mysql.jdbc.Driver");
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/databasename", "root", "");

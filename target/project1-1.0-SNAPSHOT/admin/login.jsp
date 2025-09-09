@@ -86,18 +86,18 @@
                 <div class="activity-data">
                     <div class="data id">
                         <span class="data-title">ID</span>
-                        <span class="data-list">00</span>
+                        <span class="data-list">01</span>
                         
                     </div>
                     <div class="data email">
                         <span class="data-title">Email</span>
-                        <span class="data-list">abcd@gmail.com</span>
+                        <span class="data-list">anish@gmail.com</span>
                         
                        
                     </div>
                     <div class="data password">
                         <span class="data-title">Password</span>
-                        <span class="data-list">0000</span>
+                        <span class="data-list">anish</span>
                     </div>
                     
                     
